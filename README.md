@@ -17,3 +17,6 @@ Installation steps :
    pip install -r requirements.txt
 6. Run the application
    python main.py
+
+   <img width="486" height="182" alt="image" src="https://github.com/user-attachments/assets/ad5f6428-c047-4ac3-a415-82d0531d92b1" />
+
