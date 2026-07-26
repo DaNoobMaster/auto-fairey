@@ -3,20 +3,21 @@ This is a program created to help citizens pay a fair price for their auto. It a
 Currently, as the program requires internet and the pricing works as per Bangalore, users are given the option to enter their own auto fare details for their city. This will later be changed to become autonomous instead.
 Installation steps : 
 1. Clone the github directory
-  git clone https://github.com/DaNoobMaster/auto-fairey/
+
+  **git clone https://github.com/DaNoobMaster/auto-fairey/**
 2. Navigate to the project directory.
-   cd auto-fairey
+   **cd auto-fairey**
 3. Create a virtual environment.
-  python -m venv auto-fairey
+  **python -m venv auto-fairey**
 4. Activate the virtual environment.
    On Windows :
-     auto-fairey\Scripts\activate
+     **auto-fairey\Scripts\activate**
    On MacOS/Linux :
-     source auto-fairey/bin/activate
+     **source auto-fairey/bin/activate**
 5. Install all dependencies
-   pip install -r requirements.txt
+   **pip install -r requirements.txt**
 6. Run the application
-   python main.py
+   **python main.py**
 
    <img width="486" height="182" alt="image" src="https://github.com/user-attachments/assets/ad5f6428-c047-4ac3-a415-82d0531d92b1" />
 
