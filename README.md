@@ -12,7 +12,7 @@ Installation steps :
 
 3. Create a virtual environment.
 
-       python -m venv auto-fairey
+       python3 -m venv auto-fairey
 
 4. Activate the virtual environment.
 
