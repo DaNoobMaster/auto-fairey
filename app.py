@@ -7,14 +7,13 @@ import main as main_app
 st.set_page_config(page_title="Auto Fare Calculator", page_icon="🚖", layout="centered")
 st.title("Auto Fare Calculator")
 st.write("Estimate taxi fare using your pickup, destination, baggage, and travel-time inputs.")
-
+use_custom_fare = st.checkbox("Use custom fare pricing")
 with st.form("fare_form"):
     start_location = st.text_input("Starting location", value="Bangalore")
     destination_location = st.text_input("Destination", value="Electronic City")
     travel_time_minutes = st.number_input("Travel time (minutes)", min_value=0, value=0, step=1)
     baggage_weight_kg = st.number_input("Baggage weight (kg)", min_value=0, value=0, step=1)
 
-    use_custom_fare = st.checkbox("Use custom fare pricing")
     base_fare_value = st.number_input(
         "Base fare",
         min_value=0,
